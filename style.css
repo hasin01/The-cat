@@ -5,10 +5,7 @@
 }
 
 @media (min-width: 700px){
-    .catImg{
-        width: 400px;
-        border-radius: 20px;
-        }
+  
 
 
     
@@ -71,3 +68,7 @@ body{
         transform: rotate(360deg);
     }
     } 
+    .catImg{
+      
+        border-radius: 20px;
+        }
