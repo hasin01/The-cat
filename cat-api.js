@@ -61,7 +61,7 @@ async function fetchBreeds(response) {
 function renderCard(data){
   try {
     refs.app.innerHTML=`
-  <img class="catImg" src="${data.url}" alt="" width=300> 
+  <img class="catImg" src="${data.url}" alt="" > 
 <div class="description-card"><h1 class="catName">${data.breeds[0].name}</h1>
 <p class="description">${data.breeds[0].description}</p>
 <h2>Temperament</h2>
