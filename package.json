@@ -12,6 +12,8 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
-    "notiflix": "^3.2.6"
+    "axios": "^1.6.3",
+    "notiflix": "^3.2.6",
+    "slim-select": "^2.8.0"
   }
 }

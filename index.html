@@ -1,13 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
+   
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>TheCat</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <select id="single"  class="breed-select is-hidden"></select>
+    <div class="app"></div>
+    <p class="loadere">Loading data, please wait <span class="loader"></span></p>
+    <div class="cat-info"></div>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
